@@ -20,6 +20,9 @@ const FilmDetail = ({ peliculas }) => {
       <h2>{filmData.title}</h2>
       <h3>({filmData.original_title})</h3>
       <p>{filmData.description}</p>
+      <p>{filmData.director}</p>
+      <p>{filmData.release_date}</p>
+      
       
       <div className="film-links">
         <h4>Personajes:</h4>
